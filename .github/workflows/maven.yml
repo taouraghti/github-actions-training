@@ -35,6 +35,6 @@ jobs:
         with:
           image: taouraghti/springboot-github-actions
           registry: docker.io
-          dockerfile: ./Dockerfile
+          dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
