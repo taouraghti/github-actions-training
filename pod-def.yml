@@ -7,5 +7,5 @@ metadata:
 
 spec:
   containers:
-    -name: springboot-github-actions
-    image: springboot-github-actions:0.0.1
+    - name: springboot-github-actions
+      image: springboot-github-actions:0.0.1
