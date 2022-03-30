@@ -7,4 +7,5 @@ metadata:
 
 spec:
   containers:
-    -name: anas
+    -name: springboot-github-actions
+    image: springboot-github-actions:0.0.1
