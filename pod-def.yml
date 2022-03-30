@@ -8,4 +8,4 @@ metadata:
 spec:
   containers:
     - name: springboot-github-actions
-      image: springboot-github-actions:0.0.1
+      image: taouraghti/springboot-github-actions:0.0.1
