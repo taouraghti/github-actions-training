@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deploy
+
+spec:
+  template:
+    metadata:
+      name: first-api
+      labels:
+        type: restapi
+
+    spec:
+      containers:
+        - name: springboot-github-actions
+          image: taouraghti/springboot-github-actions:0.0.1
+  replicas: 4
+  selector:
+    matchLabels:
+      type: restapi
